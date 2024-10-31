@@ -10,6 +10,7 @@
   border: 1.5px solid black;
   overflow: hidden;
   box-sizing: border-box;
+  margin-bottom: 40px;
 }
 
 .description {
@@ -37,7 +38,7 @@
   font-size: 14px;
   color: #6b6b6b;
   margin: 0;
-  line-height: 1.5rem;
+  line-height: 1.5em;
 }
 
 .stats {

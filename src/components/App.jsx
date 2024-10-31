@@ -1,10 +1,13 @@
 import userData from '/src/userData.json';
-import Profile from './Profile';
 console.log(userData);
+import Profile from './Profile';
+
+import friends from '../friends.json';
+import FriendList from './FriendList';
 
 function App() {
   return (
-    <div>
+    <>
       <Profile
         name={userData.username}
         tag={userData.tag}
@@ -12,7 +15,9 @@ function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
-    </div>
+
+      <FriendList friends={friends} />
+    </>
   );
 }
 
