@@ -62,6 +62,10 @@
   padding-bottom: 12px;
 }
 
+.statItem:last-child {
+  border-right: none;
+}
+
 .label {
   font-size: 14px;
   color: black;
